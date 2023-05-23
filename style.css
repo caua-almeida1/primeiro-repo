@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    position: fixed;
+    background-color: aliceblue;
+}
+
+section {
+    min-height: 100vh;
+}
+
+#sobre{
+    background-color: brown;
+}
+
+#servicos{
+    background-color: aqua;
+}
+
+#contato{
+    background-color: chartreuse;
+}
